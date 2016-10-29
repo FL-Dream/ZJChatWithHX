@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"首页";
-    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

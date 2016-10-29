@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"设置";
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
