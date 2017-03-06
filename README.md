@@ -1,3 +1,3 @@
-# BasicArchitecture
-一个简单的架构，可以拿下来直接使用
+# ZJChatWithHX
+利环信写一个Demo
 以后会不断的更新
