@@ -17,6 +17,7 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - Hyphenate_CN (3.2.2.2)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -24,13 +25,15 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - FMDB
+  - Hyphenate_CN
   - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Hyphenate_CN: fb0ecb6bce81a8e784ee02e9e2c0ddfba9a365d1
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: 2cab02ae548ace603b4a13dbdc634b9e120aa090
+PODFILE CHECKSUM: 6e60dfb92dabb56af6f3499105efc8a0cd43e9ae
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0
