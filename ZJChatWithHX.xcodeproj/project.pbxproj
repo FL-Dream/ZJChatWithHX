@@ -71,6 +71,8 @@
 		30DF1B931DC35425009D7C53 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30DF1B5A1DC35425009D7C53 /* ZFPlayer.bundle */; };
 		30DF1B941DC35425009D7C53 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF1B5D1DC35425009D7C53 /* ZFPlayerControlView.m */; };
 		30DF1B951DC35425009D7C53 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF1B5F1DC35425009D7C53 /* ZFPlayerView.m */; };
+		38FCB03F1E6D623D00C156D5 /* ZJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FCB03D1E6D623D00C156D5 /* ZJLoginViewController.m */; };
+		38FCB0401E6D623D00C156D5 /* ZJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FCB03E1E6D623D00C156D5 /* ZJLoginViewController.xib */; };
 		8BA03341C5D8FF615685FD7A /* libPods-ZJChatWithHX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D14FFB5E915ED9C3FD00FB /* libPods-ZJChatWithHX.a */; };
 /* End PBXBuildFile section */
 
@@ -207,6 +209,9 @@
 		30DF1B5D1DC35425009D7C53 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
 		30DF1B5E1DC35425009D7C53 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
 		30DF1B5F1DC35425009D7C53 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		38FCB03C1E6D623D00C156D5 /* ZJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLoginViewController.h; sourceTree = "<group>"; };
+		38FCB03D1E6D623D00C156D5 /* ZJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLoginViewController.m; sourceTree = "<group>"; };
+		38FCB03E1E6D623D00C156D5 /* ZJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJLoginViewController.xib; sourceTree = "<group>"; };
 		3B34D9F09FD24D795AA2C712 /* Pods-ZJChatWithHX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatWithHX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatWithHX/Pods-ZJChatWithHX.debug.xcconfig"; sourceTree = "<group>"; };
 		41D14FFB5E915ED9C3FD00FB /* libPods-ZJChatWithHX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJChatWithHX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA675B6B23BD60CA35F15129 /* Pods-ZJChatWithHX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJChatWithHX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJChatWithHX/Pods-ZJChatWithHX.release.xcconfig"; sourceTree = "<group>"; };
@@ -412,6 +417,9 @@
 		30DF1AAD1DC34CC0009D7C53 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38FCB03C1E6D623D00C156D5 /* ZJLoginViewController.h */,
+				38FCB03D1E6D623D00C156D5 /* ZJLoginViewController.m */,
+				38FCB03E1E6D623D00C156D5 /* ZJLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -816,6 +824,7 @@
 				30DF1A971DC34A44009D7C53 /* Assets.xcassets in Resources */,
 				30DF1B7D1DC35425009D7C53 /* MJRefresh.bundle in Resources */,
 				30DF1B8B1DC35425009D7C53 /* SVProgressHUD.bundle in Resources */,
+				38FCB0401E6D623D00C156D5 /* ZJLoginViewController.xib in Resources */,
 				30DF1B931DC35425009D7C53 /* ZFPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -897,6 +906,7 @@
 				30DF1AD01DC35215009D7C53 /* AFOwnerHTTPSessionManager.m in Sources */,
 				30DF1B871DC35425009D7C53 /* SDCollectionViewCell.m in Sources */,
 				30DF1B751DC35425009D7C53 /* MJRefreshAutoNormalFooter.m in Sources */,
+				38FCB03F1E6D623D00C156D5 /* ZJLoginViewController.m in Sources */,
 				30DF1B781DC35425009D7C53 /* MJRefreshBackNormalFooter.m in Sources */,
 				30DF1B921DC35425009D7C53 /* ZFBrightnessView.m in Sources */,
 				30DF1B851DC35425009D7C53 /* TADotView.m in Sources */,
